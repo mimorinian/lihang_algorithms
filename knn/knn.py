@@ -4,7 +4,7 @@ import pandas as pd
 import numpy as np
 import time
 
-from sklearn.cross_validation import train_test_split
+from sklearn.model_selection import train_test_split
 from sklearn.metrics import accuracy_score
 
 def Predict(testset, trainset, train_labels):
